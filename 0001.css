@@ -1,0 +1,133 @@
+body
+{
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 1px;
+  border-color: #d6d6d6;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #aaaaaa;
+}
+
+.header__container {
+    background-color: #ffffff;
+    position: relative;
+    height: 180px;
+  /*  background-image: url("C:/Dhana/banner_plain.png");*/
+}
+
+div {
+  display: block;
+  padding-top: 2px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    background-image: url("C:/Dhana/header_02.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-x: 200px;
+    height: inherit;
+}
+
+.logo {
+    width: 550px;
+    height: auto;
+    padding-left: 180px;
+    margin-top: 30px;
+}
+
+ul{
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a{
+  float: left;
+  width: 6em;
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    width: 100px;
+    padding: 13px;
+    font-weight: bold;
+    border-right: 1px solid #005d0a;
+}
+
+.menu_container {
+  height: 50px;
+  background: #007e0d;
+  background-size: cover;
+}
+
+.menu {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body_container {
+    zoom: 1;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.col_a1{
+  display: inline-block;
+  width: 23.6%;
+  /*background: #000;*/
+  height: 300px;
+}
+
+.col_a1_title {
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  /*text-align: center;*/
+}
+
+.extra_border{
+  border-bottom: 1px solid white;
+}
+
+.col_a2{
+  display: inline-block;
+  width: 40%;
+  /*background: #000;*/
+  height: 300px;
+}
+
+.col_a3{
+  display: inline-block;
+  width: 64%;
+  height: 300px;
+}
+
+.col_a3_container{
+  width: 100%
+}
+
+.col_a4{
+  display: inline;
+  width: 33.33%;
+}
